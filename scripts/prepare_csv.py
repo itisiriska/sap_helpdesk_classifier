@@ -1,9 +1,9 @@
 import pandas as pd
 from sklearn.model_selection import StratifiedShuffleSplit
 
-XTRAIN_PATH = "data/train.csv"
-XTEST_PATH = "data/test.csv"
-DATASET_PATH = "data/dataset.xlsx"
+XTRAIN_PATH = "../data/train.csv"
+XTEST_PATH = "../data/test.csv"
+DATASET_PATH = "../data/dataset.xlsx"
 RANDOM_STATE = 42
 
 dataset = pd.read_excel(DATASET_PATH, index=False)
